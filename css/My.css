@@ -277,6 +277,7 @@ a.home{
 }
 .btn-our{
     margin-top: 68px;
+    margin-bottom: 70px;
     border: 2px solid #00e0d0;
     width: 126px;
     padding: 10px 15px ;
@@ -284,20 +285,71 @@ a.home{
     background: transparent;
 }
 .our-works a.btn-our{
-   font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
     display: block;
-   text-align: center;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
     color: #00e0d0;
     text-transform: uppercase;
     font-size: 14px;
 }
 
+/* Section='Quote' */
 
+.quote__main {
+    background-image: url("../img/forest.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px;
+}
+.title-wrap{
+    margin: 30px auto 0;
+    height: 100px;
+}
+.quote__title{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+.text-wrap{
+    margin: 0 auto 50px;
+}
+.quote__text{
+    font-size: 16px;
+    color: #bbb8c5;
+    margin: 0 auto;
+    text-align: center;
+}
+.name-job-wrap{
+    margin: 0 auto;
+}
+.quote__name{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.quote__job{
+    font-size: 13px;
+    color: #bbb8c5;
+    text-align: center;
+}
+.quote__faces{
+    text-align: center;
+    margin: 40px auto 65px;
+}
+.quote__faces img{
+   margin-right: 10px;
 
+}
+.quote__faces span{
+    font-size: 30px;
+    color: #bbb8c5;
+    margin-right: 10px;
 
-
-
-
+}
 
 
 
