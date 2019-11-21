@@ -13,6 +13,12 @@ hr{
     width: 50px;
     margin: 30px auto;
 }
+input, textarea{
+    margin: 0;
+    padding: 0;
+    border: none;
+    resize: none;
+}
 
 /* Header */
 
@@ -348,8 +354,70 @@ a.home{
     font-size: 30px;
     color: #bbb8c5;
     margin-right: 10px;
-
 }
+
+/* Section="Goodnews" */
+
+.goodnews{
+    height: 655px;
+}
+.goodnews__title{
+    font-size: 22px;
+    color: #413d4b;
+    word-spacing: 3px;
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
+.form p{
+    border: 1px solid #e5e5e5;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+input[type="text"]::-webkit-input-placeholder { color: #a6a4ab; font-size: 14px; font-family: "Roboto Light", sans serif;}
+input[type="text"]:-ms-input-placeholder { color: #a6a4ab; font-size: 14px; font-family: "Roboto Light", sans serif;}
+input[type="text"]::-ms-input-placeholder { color: #a6a4ab; font-size: 14px; font-family: "Roboto Light", sans serif;}
+input[type="text"]::placeholder { color: #a6a4ab; font-size: 14px; font-family: "Roboto Light", sans serif;}
+
+textarea::-webkit-input-placeholder { color: #a6a4ab; font-size: 14px; font-family: "Roboto Light", sans serif;}
+textarea:-ms-input-placeholder { color: #a6a4ab; font-size: 14px; font-family: "Roboto Light", sans serif;}
+textarea:-ms-input-placeholder { color: #a6a4ab; font-size: 14px; font-family: "Roboto Light", sans serif;}
+textarea::placeholder { color: #a6a4ab; font-size: 14px; font-family: "Roboto Light", sans serif;}
+
+input[type="email"]::-webkit-input-placeholder { color: #a6a4ab; font-size: 14px; font-family: "Roboto Light", sans serif;}
+input[type="email"]:-ms-input-placeholder { color: #a6a4ab; font-size: 14px; font-family: "Roboto Light", sans serif;}
+input[type="email"]::-ms-input-placeholder { color: #a6a4ab; font-size: 14px; font-family: "Roboto Light", sans serif;}
+input[type="email"]::placeholder { color: #a6a4ab; font-size: 14px; font-family: "Roboto Light", sans serif;}
+
+.goodnews input[type="email"], input[type="text"], textarea{
+    width: 100%;
+}
+.btn-massage{
+    width: 120px;
+    height: 37px;
+    padding: 15px auto;
+    border: 1px solid #77eee6;
+    color: #77eee6;
+    font-family: "Hammersmith One", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    background: transparent;
+}
+.goodnews__zara, .goodnews__barneys, .goodnews__ck, .goodnews__convers {
+    margin-bottom: 45px;
+}
+
+/* Section = "Footer" */
+.footer{
+    background-image: url("../img/footer.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white;
+    height: 400px;
+}
+
+
 
 
 
