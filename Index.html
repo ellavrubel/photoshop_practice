@@ -13,33 +13,37 @@
 </head>
 <body>
 <header class="header container-fluid">
-    <div class="menu container">
-        <div class="row no-gutters">
+    <div class="container">
+        <div class="menu row justify-content-between">
 
             <div class="col-2">
-                <img alt="logo" class="header__logo" src="img/nav_logo.png">
+                <img class="header__logo img-adaptive" src="img/nav_logo.png" alt="logo" >
             </div>
-            <div class="col-lg-10">
-                <ul class="header__menu d-flex justify-content-end">
-                    <li class="header__menu"><a class="home" href="/">HOME</a></li>
-                    <li class="header__menu"><a href="/">ABOUT</a></li>
-                    <li class="header__menu"><a href="/">EXPERTISE</a></li>
-                    <li class="header__menu"><a href="/">TEAMS</a></li>
-                    <li class="header__menu"><a href="/">WORKS</a></li>
-                    <li class="header__menu"><a href="/">PEOPLE SAY</a></li>
-                    <li class="header__menu"><a href="/">CONTACT</a></li>
-                </ul>
+            <div class="col col-lg-7">
+                <div class="header__menu d-flex justify-content-end">
+                   <a class="header__menu home" href="/">HOME</a>
+                   <a class="header__menu" href="/">ABOUT</a>
+                   <a class="header__menu" href="/">EXPERTISE</a>
+                   <a class="header__menu" href="/">TEAMS</a>
+                   <a class="header__menu" href="/">WORKS</a>
+                   <a class="header__menu" href="/">PEOPLE SAY</a>
+                   <a class="header__menu" href="/">CONTACT</a>
+                </div>
             </div>
         </div>
     </div>
     <div class="header__text">
         <div class="container">
+            <div class="row">
+                <div class="col">
             <h2 class="title">We Are Awesome Creative Agency </h2>
             <hr>
             <p class="addvert-text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
                 aliquet.
                 Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit
             </p>
+                </div>
+            </div>
             <a class="btn" href="/">LEARN MORE</a>
             <div class="radio_list">
                 <a class=dots" href="/" target="_blank"><img alt="dot" src="img/active_dot.png"></a>
@@ -52,9 +56,9 @@
 </header>
 <section class="story">
     <div class="container">
-        <div class="row">
-            <div class="col-5">
-                <img alt="rectangle" src="img/Second_Rectangle.png">
+        <div class="story-row row">
+            <div class="col-3">
+                <img class="img-adaptive" alt="triangle" src="img/Second_Rectangle.png">
             </div>
             <div class="col-7">
                 <h3 class="story-title">OUR STORY</h3>
@@ -149,28 +153,28 @@
             </div>
         </div>
         <div class="row d-flex justify-content-center">
-            <div class="col-sm-6 col-lg-2">
+            <div class="col-5 col-md-2">
                 <div class="founder">
                     <img alt="Semf" src="img/white_rec.jpg">
                     <p class="name">semf ucuc</p>
                     <p class="job">ceo&fouder</p>
                 </div>
             </div>
-            <div class="col-sm-6 col-lg-2">
+            <div class="col-5 col-md-2">
                 <div class="engeneering">
                     <img alt="dik" src="img/white_rec.jpg">
                     <p class="name">dik adalin</p>
                     <p class="job">engeneering</p>
                 </div>
             </div>
-            <div class="col-sm-6 col-lg-2">
+            <div class="col-5 col-md-2">
                 <div class="designer">
                     <img alt="jeng" src="img/white_rec.jpg">
                     <p class="name">jeng kol</p>
                     <p class="job">designer</p>
                 </div>
             </div>
-            <div class="col-sm-6 col-lg-2">
+            <div class="col-5 col-md-2">
                 <div class="marketing">
                     <img alt="pete" src="img/white_rec.jpg">
                     <p class="name">pete romack</p>
@@ -199,7 +203,7 @@
             </div>
         </div>
     </div>
-    <div class="grey-square container-fluid">
+    <div class="grey-square container">
         <div class="square row">
             <div class="square1 col-md-4 col-lg-2"></div>
             <div class="square2 col-md-4 col-lg-2"></div>
@@ -245,13 +249,17 @@
             </div>
             <div class="row">
                 <div class="quote__faces col-lg-6">
+
                     <span>&#60;</span>
+                    <div class="d-flex justify-content-around">
                     <img alt="face" src="img/1.png">
                     <img alt="face" src="img/2.png">
                     <img alt="face" src="img/Ellipse.png">
                     <img alt="face" src="img/3.png">
                     <img alt="face" src="img/4.png">
+                    </div>
                     <span>&#62;</span>
+
                 </div>
             </div>
         </div>
@@ -282,34 +290,34 @@
             <div class="col col-md-5">
                 <p class="goodnews__title">OUR HAPPY CLIENT</p>
                 <div class="row justify-content-between">
-                    <div class="goodnews__zara col-md-5">
+                    <div class="logotype goodnews__zara col-md-5">
                         <img alt="ZARA" src="img/Zara_Logo.png">
                      </div>
-                    <div class="goodnews__mango col-md-5">
+                    <div class="logotype goodnews__mango col-md-5">
                         <img alt="MANGO" src="img/Mango.png">
                      </div>
-                    <div class="goodnews__barneys col-md-5">
+                    <div class="logotype goodnews__barneys col-md-5">
                         <img alt="BARNEYS NEYYORK" src="img/Barneys.png">
                      </div>
-                    <div class="col-md-5">
+                    <div class="logotype col-md-5">
                         <img alt="GUCCI" src="img/Gucci.png">
                      </div>
-                    <div class="goodnews__ck col-md-5">
+                    <div class="logotype goodnews__ck col-md-5">
                         <img alt="CALVIN KLEIN" src="img/Calvin_klein.png">
                      </div>
-                    <div class="goodnews__nike col-md-5">
+                    <div class="logotype goodnews__nike col-md-5">
                         <img alt="NIKE" src="img/NIKE.png">
                      </div>
-                    <div class="goodnews__convers col-md-5">
+                    <div class="logotype goodnews__convers col-md-5">
                         <img alt="CONVERS" src="img/Converse.png">
                      </div>
-                    <div class="goodnews__puma col-md-5">
+                    <div class="logotype goodnews__puma col-md-5">
                         <img alt="PUMA" src="img/Puma.png">
                      </div>
                     <div class="align-self-end col-md-5">
                         <img alt="LEVI'S" src="img/Levi's.png">
                      </div>
-                    <div class="goodnews__billabong col-md-5">
+                    <div class="logotype goodnews__billabong col-md-5">
                         <img alt="BILLABONG" src="img/Billabong.png">
                      </div>
                  </div>
@@ -320,7 +328,7 @@
 <footer class="footer container-fluid">
     <div class="container">
         <div class="row">
-            <div class="footer__up-side col-md-4">
+            <div class="footer__up-side  col-md-4">
                 <img alt="" class="footer__logo" src="img/LOGO.png">
                 <p class="footer__text">In practice, here’s how it looks. Note you can continue to use this with
                     all other predefined
@@ -342,7 +350,6 @@
                         </div>
                     </div>
             </div>
-
             <div class="footer__up-side col-md-4">
                 <p class="footer__title">STAY IN TOUCH</p>
                 <div class="d-flex">
@@ -359,13 +366,12 @@
                 </div>
             </div>
         </div>
-
         <div class="footer__down row justify-content-between">
             <div class="col-md-4">
                 <div class="d-flex">
-                    <p><a class="footer__nav"href="/" target="_blank">HELP</a> </p>
-                    <p><a class="footer__nav"href="/" target="_blank">TERMS & CONDITIONS</a> </p>
-                    <p><a class="footer__nav"href="/" target="_blank">PRIVACY</a> </p>
+                    <p><a class="footer__nav" href="/" target="_blank">HELP</a> </p>
+                    <p><a class="footer__nav" href="/" target="_blank">TERMS & CONDITIONS</a> </p>
+                    <p><a class="footer__nav" href="/" target="_blank">PRIVACY</a> </p>
                 </div>
             </div>
             <div class="col-md-3">
