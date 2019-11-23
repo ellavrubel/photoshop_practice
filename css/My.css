@@ -716,15 +716,19 @@ input[type="email"]::placeholder {
         width: 100px;
         padding: 5px auto;
     }
+
     .our-works a.btn-our {
         font-size: 10px;
     }
+
     .quote__title {
         font-size: 20px;
     }
+
     .quote__text {
         font-size: 12px;
     }
+
     .title-wrap {
         margin: 15px auto;
         height: auto;
@@ -733,25 +737,65 @@ input[type="email"]::placeholder {
     .text-wrap {
         margin: 15px auto;
     }
-    .quote__name{
+
+    .quote__name {
         font-size: 12px;
     }
-    .quote__faces{
+
+    /*.quote__faces{
        margin: 20px auto;
     }
     .quote__faces img{
         height: 70%;
-    }
-    .goodnews{
-        height: auto;
-    }
-    .logotype, .goodnews__zara, .goodnews__barneys, .goodnews__ck, .goodnews__convers {
-        margin-bottom: 25px;
-    }
-    .footer{
+    }*/
+    .goodnews {
         height: auto;
     }
 
+    .logotype, .goodnews__zara, .goodnews__barneys, .goodnews__ck, .goodnews__convers {
+        margin-bottom: 25px;
+    }
+
+    .footer__text {
+        font-size: 10px;
+        color: #d6d4dd;
+        margin-top: 10px;
+        line-height: normal;
+    }
+
+    .footer__up-side {
+        margin-top: 15px;
+    }
+
+    p.footer__title {
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 0;
+        text-align: center;
+    }
+    .footer__text{
+        margin-bottom: 0;
+    }
+    .footer__icon {
+        margin-top: 10px;
+    }
+    .footer__title{
+        font-size: 12px;
+     }
+    .footer__linktext, .footer__linkimg {
+        margin-top: 10px;
+    }
+    a.footer__linktext{
+        padding: 5px 18px;
+        font-size: 12px;
+        text-align: center;
+    }
+    .footer__social{
+        margin-top: 15px;
+    }
+    .footer__down{
+        margin-top: 50px;
+    }
 }
 
 
