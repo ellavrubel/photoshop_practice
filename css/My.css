@@ -786,7 +786,7 @@ input[type="email"]::placeholder {
         margin-top: 10px;
     }
     a.footer__linktext{
-        padding: 5px 18px;
+        padding: 10px 18px;
         font-size: 12px;
         text-align: center;
     }
